@@ -11,6 +11,7 @@ The idea of this project is to provide tools to manage diaster recovery easily i
 Imagine a global business with offices in New York, London and Shanghai. When data center diaster recovery is set up, there usually is a master location, say NYC in this case. The other two locations can provide read-only access to the data but all writes need to go to the master location. In this project we implemented a "follow-the-sun" strategy where the master location moves according to local business hours to maximize the majority write performance.
 
 Set up instruction:
+
 1. First you need VPCs in two regions and establish network connection between them.
 In the demo, we set up one VPC in each region with one public subnet.
 This could be achieved through setting up VPN on both sides. 
