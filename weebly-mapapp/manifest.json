@@ -1,0 +1,71 @@
+{
+  "manifest": "1",
+  "version": "1.2.6",
+  "elements": [
+    {
+      "name": "Google Map",
+      "path": "files",
+      "version": "1.2.6",
+      "settings": {
+        "config": {
+          "autopop": true
+        },
+        "properties": [
+          {
+            "name": "settings",
+            "label": "Settings",
+            "type": "group",
+            "properties": [
+              {
+                "name": "height",
+                "label": "Height",
+                "type": "int",
+                "default": 400,
+                "step": 1,
+                "min": 0
+              },
+              {
+                "name": "long",
+                "label": "Longitude",
+                "type": "int",
+                "default": 1,
+                "step": 1,
+                "min": 0
+              },
+              {
+                "name": "lat",
+                "label": "Latitude",
+                "type": "int",
+                "default": 15,
+                "step": 1,
+                "min": 0
+              },
+              {
+                "name": "zoom",
+                "label": "Zoom",
+                "type": "slider",
+                "default": 2,
+                "step": 1,
+                "min": 0,
+                "max": 10
+              }
+            ]
+          },
+          {
+            "name": "advanced",
+            "label": "Advanced",
+            "type": "group",
+            "properties": [
+              {
+                "name": "data_url",
+                "label": "Data Feed",
+                "type": "string",
+                "default": ""
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

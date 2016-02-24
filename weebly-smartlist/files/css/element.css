@@ -1,0 +1,21 @@
+/* element.css for the Price Chart element. 
+ * this takes a lot of stuff from the basic table's stylesheet, as it's used as a base for the Price Chart */
+
+@user-vert-padding: @vert_padding * 1px;
+@user-vert-margin: @vert_margin * 1px;
+
+.smartlist li {
+  background-color: @background_color;
+  padding: @user-vert-padding 3px;
+  margin: @user-vert-margin 1px;
+  color: @text_color;
+}
+
+.smartlist-container h3 {
+  padding: 8px 0px;
+}
+
+.smartlist-edit-button {
+  float: right
+}
+

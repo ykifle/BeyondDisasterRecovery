@@ -1,0 +1,7 @@
+/* element.css for the Price Chart element. 
+ * this takes a lot of stuff from the basic table's stylesheet, as it's used as a base for the Price Chart */
+
+.map {
+    height: 100%;
+}
+
